@@ -7,7 +7,7 @@ public class Tarefa
     public DateTime DataInicio { get; set; }
     public DateTime DataFim { get; set; }
 
-    public Tarefa(string nome, string nomeFuncionario, DateTime dataInicio, DateTime dataFim)
+    public Tarefa(string nome, DateTime dataInicio, DateTime dataFim, string nomeFuncionario)
     {
         Nome = nome;
         NomeFuncionario = nomeFuncionario;
